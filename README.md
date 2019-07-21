@@ -1,3 +1,3 @@
-# API Mongodb, Express and Node (AMEN) stack.
+# Basic API Server
 
-Notes about the code in the AMEN stack.
+Basic API Resitfy server using Mongodb and Node
