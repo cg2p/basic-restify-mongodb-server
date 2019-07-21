@@ -4,8 +4,8 @@
   "description": "Notes about the code in the AMEN stack.",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=dev node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "NODE_ENV=dev node server.js",
+    "test": "NODE_ENV=test node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/cg2p/amen#readme",
   "dependencies": {
+    "dotenv": "^8.0.0",
     "http": "0.0.0",
-    "mongoose": "^5.6.3"
+    "mongoose": "^5.6.3",
+    "restify": "^8.3.3"
   }
 }
