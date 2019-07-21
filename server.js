@@ -3,13 +3,8 @@ const restify = require('restify');
 const db = require('./db');
 const config = require('./config');
 
-/*const requestHandler = (request, response) => {
-    console.log(request.url)
-    response.end('Hello basic API service!')
-  }
-  */
 const server = restify.createServer({
-  name: 'basic-mongodb-api'
+  name: 'basic-restify-mongodb-server'
 });
 
 server.use(restify.plugins.acceptParser(server.acceptable));
