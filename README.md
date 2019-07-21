@@ -1,3 +1,3 @@
 # Basic API Server
 
-Basic API Resitfy server using Mongodb and Node
+Basic API Restify server using Mongodb and Node
